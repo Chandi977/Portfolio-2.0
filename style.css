@@ -10,6 +10,7 @@
   text-decoration: none;
   transition: all 0.2s linear;
   line-height: 1.5;
+  cursor: none;
 }
 
 *::selection {

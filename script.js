@@ -6,6 +6,8 @@ const scrollBtn = document.querySelector("#scrollupBtn");
 let cursor1 = document.querySelector(".cursor-1");
 let cursor2 = document.querySelector(".cursor-2");
 
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
 window.onscroll = () => {
   searchBtn.classList.remove("fa-times");
   searchBar.classList.remove("active");
